@@ -33,8 +33,45 @@ function Gymbaran () {
         <div><img src="img1.jpg" alt="Gym1" width="400" height="250"/></div>
       </div>
       <div>
-      <div><h1>Healthy in side <br/> fresh out side</h1></div>
-      <div><p>Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.</p></div>
+        <div><h1>Healthy in side <br/> fresh out side</h1></div>
+        <div><p>Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.</p></div>
+      </div>
+      <div>
+        <div>
+          <div>
+            {/* icon */}
+          </div>
+          <div>
+            <p>Get that 11 line in 30 days</p>
+            <button>Learn more </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            {/* icon */}
+          </div>
+          <div>
+            <p>14 Days sherd challenge </p>
+            <button>Learn more </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            {/* icon */}
+          </div>
+          <div>
+            <p>Get flat belly in 30 days</p>
+            <button>Learn more </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div><h1>Best full body <br/> workout to lose fat</h1></div>
+          <div><p>Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.</p></div>
+          <button>Get started</button>
+        </div>
+        <div><img src="img2.jpg" alt="Gym2" width="400" height="250"/></div>  
       </div>
     </div>
   )
