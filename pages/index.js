@@ -32,6 +32,10 @@ function Gymbaran () {
         </div>
         <div><img src="img1.jpg" alt="Gym1" width="400" height="250"/></div>
       </div>
+      <div>
+      <div><h1>Healthy in side <br/> fresh out side</h1></div>
+      <div><p>Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.</p></div>
+      </div>
     </div>
   )
 }
