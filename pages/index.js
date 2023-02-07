@@ -1,6 +1,4 @@
-
 function Gymbaran () {
-
   return(
     <div className="h-full mt-4 ml-8 mr-8 p-2 bg-white">
       <nav className="flex justify-between m-2">
@@ -70,19 +68,19 @@ function Gymbaran () {
             Healthy in side <br/> fresh out side
           </h1>
         </div>
-        <div>
-          <p className="mt-6 text-xs">
+        <div className="mt-6 text-justify ">
+          <p className="text-xs">
             Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.
           </p>
         </div>
       </div>
-      <div>
-        <div>
+      <div className="mt-16 flex justify-between text-center px-10 py-14 border border-purple-900 bg-purple-700 rounded-lg text-white">
+        <div className="">
           <div>
             {/* icon */}
           </div>
           <div>
-            <p>Get that 11 line in 30 days</p>
+            <p className="font-bold">Get that 11 line in 30 days</p>
             <button>Learn more </button>
           </div>
         </div>
@@ -91,7 +89,7 @@ function Gymbaran () {
             {/* icon */}
           </div>
           <div>
-            <p>14 Days sherd challenge </p>
+            <p className="font-bold">14 Days sherd challenge </p>
             <button>Learn more </button>
           </div>
         </div>
@@ -100,18 +98,28 @@ function Gymbaran () {
             {/* icon */}
           </div>
           <div>
-            <p>Get flat belly in 30 days</p>
+            <p className="font-bold">Get flat belly in 30 days</p>
             <button>Learn more </button>
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div><h1>Best full body <br/> workout to lose fat</h1></div>
-          <div><p>Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.</p></div>
-          <button>Get started</button>
-        </div>
-        <div><img src="img/img2.jpg" alt="Gym2" width="400" height="250"/></div>  
+      <div className="mt-16 flex justify-between">
+        <div className="mr-12">
+          <img className="h-full rounded-md" src="img/img2.jpg" alt="Gym2" width="1200" />
+        </div> 
+        <div className="">
+          <div>
+            <h1 className="font-medium text-5xl">
+              Best full body <br/> workout to lose fat
+            </h1>
+          </div>
+          <div className="mt-6 mr-16 text-justify ">
+            <p className="text-xs">
+              Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home. Healthy life makes you more excited to live the day.
+            </p>
+          </div>
+          <button className="mt-6 px-6 py-2 text-center border border-blue-50 bg-blue-800 rounded-lg text-white">Get started</button>
+        </div> 
       </div>
     </div>
   )
