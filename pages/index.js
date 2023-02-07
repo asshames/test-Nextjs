@@ -64,7 +64,7 @@ function Gymbaran () {
       </div>
       <div className="mt-16 p-2 grid grid-cols-2">
         <div>
-          <h1 className="font-medium text-5xl">
+          <h1 className="text-5xl">
             Healthy in side <br/> fresh out side
           </h1>
         </div>
@@ -109,7 +109,7 @@ function Gymbaran () {
         </div> 
         <div className="">
           <div>
-            <h1 className="font-medium text-5xl">
+            <h1 className="text-5xl">
               Best full body <br/> workout to lose fat
             </h1>
           </div>
