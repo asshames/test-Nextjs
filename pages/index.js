@@ -1,54 +1,66 @@
 function Gymbaran () {
   return(
     <div className="h-full lg:mt-6 lg:ml-10 lg:mr-10 lg:p-4 bg-white">
-      <nav className="lg:flex justify-between lg:m-2">
-        <div className="lg:mt-6 text-center">
-          <h1 className="lg:text-2xl">
-            <span className="px-1 py-1 rounded-lg bg-purple-800 text-white">Gym</span><span className="text-purple-800">baran</span>
-          </h1>
+      <nav className=" drop-shadow-md lg:flex lg:justify-between lg:m-2">
+        <div className="flex justify-between items-center m-6">
+          <div className="lg:mt-6 lg:text-center">
+            <h1 className="text-xl lg:text-2xl">
+              <span className="px-2 py-1 rounded-lg bg-purple-800 text-white">Gym</span><span className="text-purple-800">baran</span>
+            </h1>
+          </div>
+          <div>
+            <svg className="h-6 w-6 lg:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </div>
         </div>
-        <div className="flex lg:text-2xl">
-          <ul className="flex m-2 text-center text-black">
+        <div className="lg:flex lg:text-2xl flex text-white bg-white">
+          <ul className="lg:flex lg:m-2 lg:text-center lg:text-black flex">
             <li className="">
-              <div className="m-4">
-                <span>Home</span>
+              <div className="lg:m-4">
+                <span className="">Home</span>
               </div>
             </li>
             <li>
-              <div className="m-4">
+              <div className="lg:m-4">
                 <span>Program</span>
               </div>
             </li>
             <li>
-              <div className="m-4">
+              <div className="lg:m-4">
                 <span>Blog</span>
               </div>
             </li>
             <li>
-              <div className="m-4">
+              <div className="lg:m-4">
               <span>About Us</span>
               </div>
             </li>
           </ul>
           <div>
-            <button className="mt-4 px-6 py-2 text-center border border-blue-50 bg-blue-800 rounded-lg text-white">
+            <button className="lg:mt-4 lg:px-6 lg:py-2 lg:text-center lg:border lg:border-blue-50 lg:bg-blue-800 lg:rounded-lg lg:text-white">
               Log in
             </button>
           </div>
         </div>
       </nav>
-      <div className="lg:flex lg:mt-16">
+      <div className="m-6 mt-12 lg:flex lg:mt-16">
         <div className="lg:mt-10">
           <div>
-            <h1 className="font-bold lg:text-8xl">
+            <h1 className="font-bold text-4xl lg:text-8xl">
               Healthy in side <br/> <span className="text-purple-800">fresh</span> out side
             </h1>
           </div>
-          <div className="lg:text-justify lg:mt-8 lg:mr-64">
-            <p className="lg:text-lg text-gray-500 text-justify">Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine.</p></div>
-          <div className="lg:mt-8 flex">
-            <div className="lg:mr-10 lg:px-20 lg:py-5 lg:flex lg:items-center border border-blue-50 bg-blue-800 rounded-lg">
-              <button className="lg:mr-16 lg:text-center lg:text-lg text-white">Get started</button>
+          <div className="mt-6 lg:text-justify lg:mt-8 lg:mr-64">
+            <p className="text-sm lg:text-lg text-gray-500 text-justify">
+              Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine.
+            </p>
+          </div>
+          <div className="mt-10 lg:mt-8 flex">
+            <div className="mr-5 px-10 lg:mr-10 lg:px-20 lg:py-5 flex items-center border border-blue-50 bg-blue-800 rounded-lg">
+              <button className="lg:mr-16 lg:text-center lg:text-lg text-white">
+                Get started
+              </button>
               <svg className="lg:h-6 lg:w-6 lg:p-1 lg:font-semibold border border-blue-800 rounded-full bg-white text-blue-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
