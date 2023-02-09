@@ -85,7 +85,7 @@ function Gymbaran () {
           </div>
         </div>
         <div className="mt-12">
-          <img className="p-1 lg:h-full lg:rounded-md" src="img/img1.jpg" alt="Gym1"/>
+          <img className="h-full rounded-md" src="img/img1.jpg" alt="Gym1"/>
         </div>
       </div>
       <div className="mt-24 lg:p-4 lg:grid lg:grid-cols-2">
@@ -144,24 +144,26 @@ function Gymbaran () {
           </div>
         </div>
       </div>
-      <div className="mt-16 lg:mt-32 lg:ml-16 flex justify-between">
-        <div className="lg:mr-12">
+      <div className="mt-28 lg:mt-32 lg:ml-16 lg:flex lg:justify-between">
+        <div className="p-2 lg:mr-12">
           <img className="h-full rounded-md" src="img/img2.jpg" alt="Gym2" width={1800} />
         </div> 
-        <div className="lg:m-16 lg:py-8">
+        <div className="mt-8 lg:m-16 lg:py-8">
           <div>
-            <h1 className="lg:text-7xl">
+            <h1 className="text-5xl font-medium lg:text-7xl">
               Best full body <br/> workout to lose fat
             </h1>
           </div>
-          <div className="lg:mt-8 lg:mr-16 lg:text-justify ">
-            <p className="lg:text-lg  text-gray-500">
+          <div className="mt-6 lg:mt-8 lg:mr-16 text-justify ">
+            <p className=" text-xs lg:text-lg  text-gray-500">
               Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home.
             </p>
           </div>
-          <div className="lg:mt-10 lg:w-64 flex justify-between items-center text-white border border-blue-50 bg-blue-800 rounded-lg">
-            <button className="lg:px-8 lg:py-6 text-center text-lg">Get started</button>
-            <svg className="lg:h-6 lg:w-6 lg:mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+          <div className="mt-8 w-56 lg:mt-10 lg:w-64 flex justify-between items-center text-white border border-blue-50 bg-blue-800 rounded-lg">
+            <button className="mr-20 text-xs px-5 py-3 lg:px-8 lg:py-6 text-center lg:text-lg">
+              Get started
+            </button>
+            <svg className="h-4 w-4 lg:h-6 lg:w-6 lg:mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
               <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
             </svg>
           </div>
