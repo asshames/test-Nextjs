@@ -159,7 +159,7 @@ function Gymbaran () {
               Exercise is a very important need for our body. Heath and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercise, either alone or with your friends at home.
             </p>
           </div>
-          <div className="mt-8 w-56 lg:mt-10 lg:w-64 flex justify-between items-center text-white border border-blue-50 bg-blue-800 rounded-lg">
+          <div className="mt-8 w-56 lg:mt-10 lg:w-72 flex justify-between items-center text-white border border-blue-50 bg-blue-800 rounded-lg">
             <button className="mr-20 text-xs px-5 py-3 lg:px-8 lg:py-6 text-center lg:text-lg">
               Get started
             </button>
