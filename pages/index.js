@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Gymbaran () {
   return(
     <div className="h-full m-6 lg:mt-6 lg:ml-10 lg:mr-10 lg:p-4 bg-white">
@@ -23,7 +25,7 @@ function Gymbaran () {
             </li>
             <li>
               <div className="lg:m-4">
-                <span>Program</span>
+                <Link href="/program"><span>Program</span></Link>
               </div>
             </li>
             <li>
